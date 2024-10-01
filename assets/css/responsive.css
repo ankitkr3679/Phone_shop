@@ -11,6 +11,9 @@
     .ipad_px_30{
         padding: 0 1.875rem;
     }
+    .home_text h2{
+        font-size: 1.5rem;
+    }
 
     /* Header Css */
     .navbar{
@@ -79,6 +82,9 @@
     /* Common CSS */
     .mobile_px_20 {
         padding: 0 1.25rem;
+    }
+    .home_text h2{
+        font-size: 1.5rem;
     }
 
     /* Home CSS */

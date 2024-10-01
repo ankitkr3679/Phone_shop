@@ -374,6 +374,7 @@ img {
 }
 .single_promo_hover:hover{
     box-shadow: 0 2rem 5rem rgb(0 0 0  / 12%);
+    cursor: pointer;
 }
 .single_promo_1 span{
     font-size: 30px;
@@ -461,6 +462,7 @@ img {
     -ms-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out;
+    
 }
 .single_price .month{
     background: var(--bg-gradient);
@@ -518,8 +520,10 @@ img {
 .single_price:hover{
     cursor: pointer;
     margin-top: -0.625rem;
+    background: var(--bg-gradient);
+    color: var(--text-white);
 }
-.active_price{
+/* .active_price{
     background: var(--bg-gradient);
     color: var(--text-white);
 }
@@ -527,7 +531,7 @@ img {
 .active_price .doler h2,
 .active_price .doler-sine{
     color: var(--text-white);
-}
+} */
 
 /* FAQ section design */
 .faq h4 span{
