@@ -166,6 +166,7 @@ img {
     -webkit-transition:.3s;
     transition:.3s;
     background: transparent;
+
 }
 .navbar .navbar-nav .nav-link{
     padding: 1.875rem 1.25rem;
@@ -242,8 +243,8 @@ img {
 #home .home-download-btn{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    /* justify-content: flex-start;
+    flex-wrap: wrap; */
 }
 #home .home-download-btn .btn{
     padding: 1.5rem 3rem;
@@ -587,9 +588,8 @@ img {
 .copyright a{
     color: var(--text-white);
 }
-
 /* scroll up */
-#scrollUp{
+/* #scrollUp{
     position: fixed;
     right: 2%;
     bottom: 3%;
@@ -609,6 +609,6 @@ img {
 }
 #scrollUp.scrollActive{
     display: block;
-}
+} */
 
     
