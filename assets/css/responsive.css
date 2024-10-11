@@ -6,7 +6,7 @@
 @media (max-width:991px){
     /* Common CSS */
     h1,h2{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .ipad_px_30{
         padding: 0 1.875rem;
@@ -92,34 +92,27 @@
     .mobile_px_20 {
         padding: 0 1.25rem;
     }
-    .home_text h2{
-        font-size: 1.5rem;
-    }
-
     /* Home CSS */
     #home{
         padding-top: 5rem;
     }
     #home .home_text h2{
-        font-size: 2.438rem;
+        font-size: 2.300rem;
         line-height: 3.938rem;
     }
-    #home .home-download-btn .btn{
-        /* margin: 1rem; */
-        justify-content: center;
-        /* padding-left: 1rem; */
-    }
+    
     .home-image{
         text-align: center;
         transform: rotate(0deg);
     }
-    /* #home .home-download-btn span{
-        font-size: 1.5rem;    
+    #home .home-download-btn span{
+        font-size: 1rem;    
         
-    } */
+    }
     #home .home-download-btn .btn{
-        font-size: 1rem;
+        /* font-size: 1rem; */
         padding:  1rem 1rem;
+        justify-content: center;
     }
 
     /* counter section */
@@ -146,4 +139,5 @@
         max-width: 95%;
         
     }
+   
 }
